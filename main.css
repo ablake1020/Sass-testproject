@@ -1,0 +1,105 @@
+#intro {
+  padding-left: 10px;
+}
+
+.main__container {
+  background-color: #ffffff;
+  border: 2px solid #990000;
+  border-radius: 12px;
+  -webkit-box-shadow: 0 8px 10px 2px lightgray;
+          box-shadow: 0 8px 10px 2px lightgray;
+  margin: 32px 10px;
+  width: 35%;
+  height: 70%;
+}
+
+.main__container__stars {
+  margin-left: 26%;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: -14px;
+  position: absolute;
+}
+
+.main__container .fa-star {
+  font-size: 25px;
+  color: #990000;
+}
+
+.main__container .fa-star:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.main__container .fa-star-1 {
+  color: gray;
+}
+
+.main__container .fa-plane {
+  font-size: 25px;
+  margin-left: 32.5%;
+  margin-top: -2.25%;
+  position: absolute;
+  color: #444150;
+}
+
+.main__container .fa-plane:hover {
+  color: black;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+
+.main__container__heading {
+  padding-left: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 28px;
+  color: #990000;
+  margin-bottom: -12px;
+  font-weight: 900;
+}
+
+.main__container__heading:hover {
+  color: black;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  cursor: pointer;
+}
+
+.main__container__subheading {
+  padding-left: 10px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 20px;
+  color: #990000;
+}
+
+.main__container__subheading:hover {
+  color: black;
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  cursor: pointer;
+}
+
+.main__image {
+  width: 33.5vw;
+  height: 20vh;
+  margin-left: 10px;
+  border: 1px solid #990000;
+  border-radius: 0 0 12px 12px;
+  margin-bottom: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.main__image:hover {
+  -webkit-transform: scale(1.01);
+          transform: scale(1.01);
+  -webkit-box-shadow: 0 8px 10px 2px lightgray;
+          box-shadow: 0 8px 10px 2px lightgray;
+  cursor: pointer;
+}
+/*# sourceMappingURL=main.css.map */
