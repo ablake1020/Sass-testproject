@@ -93,3 +93,30 @@ $transform: scale(1.25);
         cursor: pointer;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .main__container {
+        width: 90vw;
+        &__heading {
+              font-size: 1.5rem;
+        }    
+        &__subheading {
+            font-size: 1.2rem;
+        }
+        &__stars {
+            margin-left: 220px;
+            margin-top: 5px;
+            font-size: 2px;
+        }
+    }
+
+    .fa-plane {
+        display: none;
+    }
+
+    .main__image {
+        border-radius: 12px;
+        width: 94.5%;
+        object-fit: cover;
+    }
+}
